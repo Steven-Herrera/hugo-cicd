@@ -9,7 +9,7 @@ phases:
     commands:                                                                 
       - cd /tmp
       - wget https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_0.111.3_Linux-64bit.tar.gz
-      - tar -xzf hugo_v0.111.3_Linux-64bit.tar.gz
+      - tar zxvf hugo_v0.111.3_Linux-64bit.tar.gz
       - mv hugo /usr/bin/hugo
       - cd 
       - rm -rf /tmp/*
